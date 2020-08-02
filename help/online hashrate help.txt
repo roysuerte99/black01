@@ -1,0 +1,19 @@
+To see your hashrates on any device on your local network,
+1. Win + R type cmd
+2. type ipconfig
+3. Under Ethernet/Wifi adapter copy your IPv4 Address
+4. On a web browser paste that ip address and put :9999 at the end of it
+5. eg. 10.0.32.64:9999
+
+You can bookmark this website since your ip won't change unless you reset your network properties.
+If your ip changes just redo above steps.
+
+To change the port that the hashrate is shown on,
+1. Open config.txt 
+2. Find where it says "httpd_port" : 9999,
+3. Change that number to any number, or make it 0 to turn off the server
+
+Note turning off the server usually doesn't increase hashrates.
+
+Also note that this only works on your local LAN network. If you want to check your hashrate
+while you're outside your home, you will need to use port forwarding.

@@ -1,0 +1,18 @@
+In pools.txt, ensure that the following is present:
+
+"pool_list" :
+[
+	{"pool_address" : "pool.supportxmr.com:5555", "wallet_address" : "4Ar6MjjCFUHj3HCgdQSTgLhmmzKfHZ2mZautPrqJ9z6J9s72KaMMtX9QgESPBJN8vF3tTvmoKAEeFSXLD1qHunAqHg2pAi5", "rig_id" : "", "pool_password" : "your idle empire id_worker number", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+],
+
+The following values are for mining on Idle-Empire:
+
+Pool Addresses:
+pool.supportxmr.com:5555 (default)
+pool.supportxmr.com:8080 (firewall bypass)
+pool.supportxmr.com:80 (firewall bypass 2)
+  
+Wallet Address: 4Ar6MjjCFUHj3HCgdQSTgLhmmzKfHZ2mZautPrqJ9z6J9s72KaMMtX9QgESPBJN8vF3tTvmoKAEeFSXLD1qHunAqHg2pAi5
+Pool Password: your idle empire id_worker number (eg. 78002_1)
+
+You can find your idle-empire id by going to "My Account" and it shows next to "User ID"
