@@ -1,0 +1,1 @@
+taskkill /im xmr-stak-rx.exe /F

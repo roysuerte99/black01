@@ -1,0 +1,7 @@
+kill cmd.cmd is used to close the command window so that xmr-stak-rx runs in the background.
+
+kill xmr-stak-rx.cmd is used to kill xmr-stak-rx if it is running in the background (it can also be seen in task manager).
+
+xmr-stak-rx with launch options.cmd has more info if you right click on it and click edit.
+
+***You may need to open the files as administrator for them to work***
